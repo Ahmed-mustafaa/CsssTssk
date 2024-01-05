@@ -1,0 +1,460 @@
+body{
+    margin :0;
+    padding :0;
+    height: 2000px;
+background-color: #e9e9e0;
+}
+.content{
+    width: 100%;
+    height: 450px;
+    /* background-color: #f1f6f7 ; */
+    margin-top: 2%;
+}
+.content:hover .contright{
+    transition: opacity 0.5s ease;
+    opacity: 100;
+
+}
+.left{
+    
+    width: 25%;
+    height: 100%;
+    background-color: #d6d6c4;
+
+}
+.img-left{
+    width: 70%;
+    height: 85%;
+    margin: 50px 0px 0px 240px;
+    
+}
+
+.contright {
+    width: 60%; 
+    height: 100%;
+    /* background-color: rgb(193, 187, 198); */
+    float: right;
+    /* margin-left: 40px; */
+    margin: 100px 50px 0 40px;
+    opacity: 0;
+
+}
+
+.clr {
+    clear: both;
+}
+.contright h4{
+    font-size: 30px;
+    font-family: "Roboto" , sans-serif;
+    color: #555555;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.contright h1{
+    font-size: 50px;
+    font-family: "Roboto" , sans-serif;
+    color: #222;
+line-height: 0.2;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.contright p{
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-family:  "Roboto", sans-serif;
+    color: #777;
+line-height: 1.667;
+    font-weight: 400;
+}
+.contright a {
+    background-color: #384aeb;
+    padding: 15px;
+    border-radius: 25px;
+    color: aliceblue;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+.contright a:hover {
+    background-color: white;
+     border: solid 1px;
+     color: #222;
+    
+}
+nav  {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+nav li {
+    list-style-type: none;
+    float: left;
+    padding-left: 200px;
+    margin-left: 100px;
+
+    
+
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight:500px;
+    font-family: cursive;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    color: rgb(184, 81, 46);
+    font-size: 25px;
+    font-weight:500px;
+    font-family: cursive;
+    text-decoration: none;
+
+}
+
+.products{
+    width: 100%;
+    height: 1500px;
+    background-color: rgb(46, 67, 67);
+    margin: 20px 0 0 50px;
+    position: absolute;
+}
+.product{
+    width: 30%;
+    height: 45%;
+    float: left;
+    /* background-color: darkgray; */
+    padding-left: 30px;
+    margin :10px 20px 10px 0px;
+    text-align: center;
+    position: relative;
+
+
+}
+.productInTrend{
+    width: 20%;
+    height:80%;
+    float: left;
+    /* background-color: darkgray; */
+    margin :30px 20px 10px 5px;
+    text-align: center;
+    position: relative;
+
+}
+
+.product:hover .overlay{
+    opacity:100;
+}
+.productInTrend:hover .overlayT{
+    opacity:100;
+}
+.pimg{
+width: 100%;
+margin: auto;
+height: 70%;
+}
+
+.product a{ 
+    color: rgb(24, 20, 20);
+text-decoration: none;
+}
+.product h3 {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.productInTrend h4 {
+    line-height: 0.2;
+    color: grey;
+}
+.productInTrend h3 {
+    font-size: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+.overlayT {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    background-color: rgba(179, 179, 179, 0.5);
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    margin-top: 195px;
+}
+.innerOverly{
+    position: absolute;
+    margin-bottom: 50px;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    height: 30%;
+    background-color: rgba(50, 19, 150, 0.8);
+}
+.innerOverly h3 {
+    margin-top: 30px;
+    font-size: 20px;
+}
+.innerOverly h4{
+    margin-bottom: 50px;
+}
+
+.trending{
+    margin: 500px 0px 0px 300px;
+    /* background-color: #555555; */
+    width:95%;
+    height: 700px;
+    position: absolute;
+}
+
+.trending p{
+    position: relative;
+    top: 0;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 18px;
+    line-height: 0.5;
+    font-family: 'Courier New', Courier, monospace;
+}
+.trending h3{
+    font-family:'Times New Roman', Times, serif ;
+   text-transform: capitalize;
+   line-height: 0.1;
+   font-size: 40px;
+   font-weight: 800;
+
+}
+.line{
+    margin-top: -20px;
+    margin-left: 170px;
+    width: 9%;
+    height: 1.5px;
+    background-color: #5969f7;
+    position: absolute;
+}
+
+.Shoppingtrolly{
+    width: 50%;
+    height: 180px;
+    background-color: #cfe7f9;
+position: absolute;
+margin-top: 1800px;
+overflow: hidden;
+opacity: 100%;
+}
+.Shoppingtrolly:hover {
+ transform: scale(1.2) transform 0.3s ease; /* Increase the size by 20% on hover */
+  /* opacity: 0.8; Change the opacity to 0.8 on hover */
+  width : 100%;
+  height : 350px;
+}
+.carti{
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    margin: -50px 0 0 600px;
+    overflow: hidden;
+}
+.Paragraph{
+    position: absolute;
+    margin:40px 0 0 250px;
+    text-align: center;
+}
+.Paragraph h3{
+    margin:80px 0 0 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+
+.Paragraph p{
+    margin:40px 0 0 90px;
+    line-height: 0.1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.styled-button {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 550px;
+    padding: 10px 20px; /* Set padding for the button */
+    font-size: 16px; /* Set font size */
+    background-color: #4CAF50; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect on hover */
+
+}
+.styled-button:hover{
+    background-color:black  
+}
+.Popular{
+    margin: 2180px 0px 0px 0px;
+    width:95%;
+    height: 700px;
+    /* background-color: #384aeb; */
+    
+}
+.Popular h3{
+   
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #384aeb; */
+    margin: 100px 0 0 850px;
+    font-size: 50px;
+    
+}
+.aha{
+    margin:500PX 0 0 0PX;
+    width: 100%;
+    height: 250px;
+    background-color:rgb(30, 94, 71) ;
+    position: absolute; 
+    opacity: 100%;
+}
+/* parent must take position relative so that children appears side-by-side */
+.oha{ 
+    width: 28%;
+    height: 36%;
+    /* background-color: rgb(123, 122, 27); */
+    margin: 2px 0 0 80px;
+    position: relative;
+    float: left;
+}
+.o7a  h3{
+    margin:20px 0 0 400px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: 100;
+}
+/* child also takes position relative */
+.testi{
+  margin: 230px 0px 0px 140px;
+   width: 80%;
+   height: 350px;
+   position: relative;
+
+}
+
+.overlayTe {
+    /* meanwhile the overlay position is absolute */
+    background-color: rgba(224, 224, 133, 0.8);
+    position: absolute;
+    width: 70%;
+    height: 10%;
+    top: 50;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    /* margin: 230px 0 0 30px; */
+    margin-left:142px
+}
+.o7a:hover .overlayTe{
+    opacity:100;
+}
+.overlayTe p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.1;
+    padding: auto;
+    font-weight: 100;
+    margin-top: 35px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.mission{
+    background-color: #11142e;
+    width: 100%;
+    height: 500px;
+    margin: 800px 0 0 0;
+    overflow: visible;
+}
+.get-updated {
+    background-color: #ffffff;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    margin:500px 0 0 200px;
+    text-align: center;
+    border-radius: 15px;
+}
+.get-updated P{
+    font-weight: 200;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+    
+}
+.get-updated h2{
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 500;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+}
+.sub-button{
+    position: absolute;
+    margin-top: 295px;
+    margin-left: 200px;
+    padding: 20px 25px; /* Set padding for the button */
+    font-size: 16px; /* Set font size */
+    background-color: #1e4398; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 20px; /* Add border-radius for rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect on hover */
+
+}
+.sub-button:hover{
+
+    transition: background-color 0.3s ease; /* Add a smooth transition effect on hover */
+background-color: #222;
+}
+.fd{
+width: 400px;
+height: 200px;
+margin: 200px 0 0 200px;
+position: absolute;
+color: aliceblue;
+}
+.sd{
+    position: absolute;
+    margin: 220px 0 0 790px;
+}
+.sd li{
+list-style-type: none;
+    font-size: 30px;
+    font-weight:500px;
+    text-decoration: none;
+   
+}
+.sd li a{
+    color: rgb(170, 171, 172);
+    font-size: 20px;
+    font-weight:500px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-decoration: none;
+}
+.gallery {
+    width: 200px;
+    height: 200px;
+    margin: 205px 0 0 1100px;
+    position: absolute;
+    color: aliceblue;
+    float: left;
+    position: relative;
+}
+.ga {
+    width: 40%;
+    height: 100px;
+    position: relative;
+    margin-left: 10px;
+}
