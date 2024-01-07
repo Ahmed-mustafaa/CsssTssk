@@ -1,9 +1,14 @@
-body{
+@media screen and (max-width: 500px) {
+
+  body{
+    width: 100%;
+      height: auto;
     margin :0;
     padding :0;
-    height: 2000px;
-background-color: #e9e9e0;
+    /* height: 2000px; */
+background-color: #f3f347;
 overflow-x: hidden;
+}
 }
 .content{
     width: 100%;
